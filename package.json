@@ -1,0 +1,39 @@
+{
+  "name": "josef-molz",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Josef Molz",
+  "author": "j0ck-de",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "autoprefixer": "^10.2.5",
+    "gatsby": "^3.2.1",
+    "gatsby-image": "^3.2.0",
+    "gatsby-plugin-image": "^1.2.1",
+    "gatsby-plugin-mdx": "^2.2.0",
+    "gatsby-plugin-postcss": "^4.2.0",
+    "gatsby-plugin-purgecss": "^6.0.1",
+    "gatsby-plugin-sharp": "^3.2.1",
+    "gatsby-remark-images": "^4.2.0",
+    "gatsby-remark-unwrap-images": "^1.0.2",
+    "gatsby-source-filesystem": "^3.2.0",
+    "gatsby-transformer-remark": "^3.2.0",
+    "gatsby-transformer-sharp": "^3.2.0",
+    "postcss": "^8.2.10",
+    "prism-react-renderer": "^1.2.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "tailwindcss": "^2.1.1"
+  }
+}

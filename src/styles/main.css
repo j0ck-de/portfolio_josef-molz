@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Train+One&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply hover:text-green-100 hover:-translate-y-0.5 transform transition active:bg-red-500 bg-gray-900 text-white rounded py-2 px-4 inline-block;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-gray-100;
+  }
+}
